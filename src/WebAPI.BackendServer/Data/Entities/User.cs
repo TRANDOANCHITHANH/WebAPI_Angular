@@ -1,10 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebAPI.BackendServer.Data.Entities
 {
-	[Table("Users")]
 	public class User : IdentityUser
 	{
 		[MaxLength(50)]
@@ -19,5 +17,6 @@ namespace WebAPI.BackendServer.Data.Entities
 		public DateTime Dob { get; set; }
 		public int? NumberOfVotes { get; set; }
 		public int? NumberOfKnowledgeBases { get; set; }
+		public int? NumberOfReport { get; set; }
 	}
 }
