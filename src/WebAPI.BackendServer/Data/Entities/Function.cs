@@ -21,5 +21,6 @@ namespace WebAPI.BackendServer.Data.Entities
 
 		[Required]
 		public int SortOrder { get; set; }
+		public int? ParentId { get; internal set; }
 	}
 }

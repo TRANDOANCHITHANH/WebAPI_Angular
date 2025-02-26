@@ -9,7 +9,7 @@ namespace WebAPI.BackendServer.Data.Entities
 		[MaxLength(50)]
 		[Column(TypeName = "varchar(50)")]
 		[Key]
-		public int Id { get; set; }
+		public string Id { get; set; }
 
 		[MaxLength(50)]
 		[Required]
