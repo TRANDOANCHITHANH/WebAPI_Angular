@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.BackendServer", "src\WebAPI.BackendServer\WebAPI.BackendServer.csproj", "{F0C72BAD-4DE5-4E76-B885-8A926DF3CE44}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F515DF8F-B77C-40A4-A3D7-BD4944438DA4} = {F515DF8F-B77C-40A4-A3D7-BD4944438DA4}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.WebPortal", "src\WebAPI.WebPortal\WebAPI.WebPortal.csproj", "{F515DF8F-B77C-40A4-A3D7-BD4944438DA4}"
 EndProject

@@ -16,4 +16,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebAPI.ViewModels\WebAPI.ViewModels.csproj" />
+    <ProjectReference Include="..\WebAPI.WebPortal\WebAPI.WebPortal.csproj" />
+  </ItemGroup>
+
 </Project>
