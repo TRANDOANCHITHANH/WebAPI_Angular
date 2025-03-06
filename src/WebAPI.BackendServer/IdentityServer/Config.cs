@@ -42,9 +42,9 @@ namespace WebAPI.BackendServer.IdentityServer
 						AllowAccessTokensViaBrowser = true,
 						RequireConsent = false,
 
-						RedirectUris = { "https://localhost:7196/swagger/oauth2-redirect.html" },
-						PostLogoutRedirectUris = { "https://localhost:7196/swagger/oauth2-redirect.html" },
-						AllowedCorsOrigins = { "https://localhost:7196" },
+						RedirectUris = { "https://localhost:7040/swagger/oauth2-redirect.html" },
+						PostLogoutRedirectUris = { "https://localhost:7040/swagger/oauth2-redirect.html" },
+						AllowedCorsOrigins = { "https://localhost:7040" },
 
 						AllowedScopes = new List<string>
 						{
