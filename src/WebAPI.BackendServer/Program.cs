@@ -80,6 +80,8 @@ builder.Services.AddRazorPages(option =>
 	});
 	option.Conventions.AuthorizeFolder("/Users");
 });
+builder.Services.AddScoped<IValidator<RoleVM>, RoleVMValidator>();
+builder.Services.AddScoped<IValidator<UserCreateRequest>, UserCreateRequestValidator>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

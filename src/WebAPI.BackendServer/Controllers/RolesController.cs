@@ -5,9 +5,7 @@ using WebAPI.ViewModels.Systems;
 
 namespace WebAPI.BackendServer.Controllers
 {
-	[Route("api/[controller]")]
-	[ApiController]
-	public class RolesController : ControllerBase
+	public class RolesController : BaseController
 	{
 		private readonly RoleManager<IdentityRole> _roleManager;
 		public RolesController(RoleManager<IdentityRole> roleManager)

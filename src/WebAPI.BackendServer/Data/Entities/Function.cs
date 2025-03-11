@@ -19,6 +19,8 @@ namespace WebAPI.BackendServer.Data.Entities
 		[Required]
 		public string Url { get; set; }
 
+		[MaxLength(50)]
+		public string Slug { get; set; }
 		[Required]
 		public int SortOrder { get; set; }
 		public int? ParentId { get; internal set; }
